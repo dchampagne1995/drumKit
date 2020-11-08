@@ -7,7 +7,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
   });
 }
 
-//Detecing key press
+//Detecting key press
 document.addEventListener("keypress", function(event) {
   determineKey(event.key);
   buttonFlash(event.key);
